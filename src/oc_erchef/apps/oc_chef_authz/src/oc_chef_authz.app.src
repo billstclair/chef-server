@@ -22,7 +22,7 @@
   {registered, []},
   {applications, [kernel,
                   stdlib,
-		  chef_objects,
+%%		  chef_objects,
                   stats_hero,
                   sqerl]},
   {mod, {oc_chef_authz_app, []}}
