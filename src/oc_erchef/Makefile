@@ -58,9 +58,8 @@ bundle_clean:
 	@cd apps/chef_objects/priv/depselector_rb; rm -rf .bundle
 
 bundle:
-	@echo skipping depselector for now...
-##	@echo bundling up depselector, This might take a while...
-##	@cd apps/chef_objects/priv/depselector_rb; bundle install --deployment --path .bundle
+	@echo bundling up depselector, This might take a while...
+	@cd apps/chef_objects/priv/depselector_rb; bundle install --deployment --path .bundle
 
 distclean:
 	@rm -rf _build
