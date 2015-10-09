@@ -1,7 +1,7 @@
 sudo: false
 branches:
   only:
-    - master
+    - wws
 cache:
   apt: true
   directories:
