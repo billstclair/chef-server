@@ -27,7 +27,8 @@
                   bcrypt,
                   ibrowse,
                   folsom,
-                  pooler
+                  pooler,
+                  chef_object
                  ]},
   {env, [
          %% S3 Access credentials for Bookshelf operations

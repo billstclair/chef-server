@@ -1,0 +1,10 @@
+{application, 'chef_object',
+ [{description, "chef_object behaviour"},
+  {vsn, {cmd,"cat ../../VERSION | awk '{print $0}'"}},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]}
+ ]}.
